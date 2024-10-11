@@ -7,7 +7,7 @@ interface ChatMessageProps {
 
 const ChatMessage: React.FC<ChatMessageProps> = ({ type, message }) => {
   const messageStyles =
-    type === "user" ? "bg-lightBlackGray text-white rounded-tr-lg ml-auto" : "bg-grSkin2 text-black rounded-tl-lg mr-auto";
+    type === "user" ? "bg-lightBlackGray text-white rounded-tl-lg ml-auto" : "bg-grSkin2 text-black rounded-tr-lg mr-auto";
 
   return (
     <div
