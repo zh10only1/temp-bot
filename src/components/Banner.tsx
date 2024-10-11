@@ -10,7 +10,7 @@ interface BannerProps {
 
 const Banner:React.FC<BannerProps> = ({selectedLanguage, setSelectedLanguage}) => {
   return (
-    <div className="w-full h-[14rem] bg-grayBlack flex flex-col justify-center items-center gap-7 rounded-t-xl">
+    <div className="w-full h-[14rem] bg-grayBlack flex flex-col justify-center items-center gap-7 sm:rounded-t-xl">
       <div className="flex flex-row items-center gap-4">
         <Image src={parrotImg} alt="parrot" />
         <div>
