@@ -14,4 +14,5 @@ export const languages = [
     { value: "dutch", label: "Dutch" },
     { value: "turkish", label: "Turkish" },
     { value: "swedish", label: "Swedish" },
+    { value: "urdu", label: "Urdu"},
 ];
